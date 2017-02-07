@@ -1,0 +1,125 @@
+body {
+	width: 900px;
+	height: 900px;
+	margin: auto;	
+	font-family: 'Patrick Hand SC', cursive;
+	er;
+}
+
+header {
+	width: 890px;
+	height: 15%;
+	padding-left: 20px;
+	/*border:1px solid orange;*/
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	padding: 20px;
+	color: #8a8a8a;
+	font-size: 0.7em;
+}
+
+h1 {
+	font-size:3em;
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 30px;
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	padding-top:40px;
+	padding-bottom:40px;
+	color: #ffffff;
+	font-size: 1.2em;
+}
+
+
+
+.qatar a {
+	width: 900px;
+	/*border:1px solid red;*/;
+	background: #ffd321;
+	font-size: 1.7em;
+}
+
+.luxem a {
+	background: #ffcc00;
+}
+
+.singa a {
+	background: #d9ae00;
+}
+
+.kuwait a {
+	background: #c9a100;
+}
+
+.Brunei a {
+	background: #b69200;
+}
+
+.Dubai a {
+	background: #a28200;
+}
+
+.Norway a {
+	background: #917400;
+}
+
+.Suiza a {
+	background: #806600;
+}
+
+.USA a {
+	background: #695400;
+}
+
+.Saudi a {
+	background: #514100;
+}
+
+.Ireland a {
+	background: #392e00;
+}
+
+.Netherlands a {
+	background: #1e1800;
+}
+
+.Austria a {
+	background: #0e0b00;
+}
+
+#dos a {
+   width: 300px; 
+   font-size: 1.3em;
+}
+
+
+#cuatro a {
+	/*border: 1px solid green;*/
+	width: 225px;
+	font-size: 1em;
+}
+
+#cinco a {
+	/*border:1px solid yellow;*/
+	width: 180px;
+	font-size: 0.9em;
+}
+
+a:hover {
+	background: #ffffff;
+	color: #d3b128;
+}
+
+
+
