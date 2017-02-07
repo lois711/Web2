@@ -1,0 +1,81 @@
+body {
+	width: 810px;
+	margin: auto;
+	font-family: 'VT323', monospace;
+	background: #000000;
+}
+
+figure {
+	width: 400px;
+	float: left;
+	position: relative;
+}
+
+img {
+	width: 300px;
+	border: 50px solid pink;
+	float: left;
+}
+
+img:hover {
+	opacity: 40;
+	background: red;
+}
+
+.one img {
+	border: 50px solid #ff9703 ;
+}
+
+.two img {
+	border: 50px solid #ffd303 ;
+}
+
+.three img {
+	border: 50px solid #18d6b9;
+}
+
+.five img {
+	border: 50px solid #eea3ba;
+}
+
+
+.five img {
+	border: 50px solid #d62c54;
+}
+
+.six img {
+	border: 50px solid #8de1e0;
+}
+
+figcaption {
+	text-align: center;
+	padding: 50px;
+	opacity: 0;
+}
+
+
+p {
+   position: absolute;
+   text-align: center;
+   padding:228px 51px 228px 51px;
+   color: #ffffff; 
+   font-size: 2em;
+   text-shadow: 2px 2px #000000;
+}
+
+figcaption:hover  {
+  color: blue;
+  opacity: 100;
+}
+
+/*figure:hover figcaption {
+ background: rgba(255,255,255,1);
+}
+*/
+figure:hover img {
+         width: 360px;
+         border: none;
+         margin: auto;
+         padding-left: 20px;
+}
+
