@@ -24,6 +24,15 @@ footer {
 	font-size: 0.7em;
 }
 
+/*button {
+     text-decoration: none;
+     font-family: 'Patrick Hand SC', cursive;
+     border: none;
+     background: none;
+     padding: 0px;
+
+}*/
+
 h1 {
 	font-size:3em;
 	text-align: center;
@@ -50,7 +59,7 @@ a {
 	font-size: 1.7em;
 }
 
-.luxem a {
+.luxem {
 	background: #ffcc00;
 }
 
