@@ -24,14 +24,18 @@ footer {
 	font-size: 0.7em;
 }
 
-/*button {
+button {
      text-decoration: none;
      font-family: 'Patrick Hand SC', cursive;
      border: none;
      background: none;
      padding: 0px;
+     width: 180px;
+	font-size: 0.9em;
+	float: left;
 
-}*/
+
+}
 
 h1 {
 	font-size:3em;
