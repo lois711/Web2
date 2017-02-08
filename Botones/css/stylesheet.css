@@ -31,10 +31,8 @@ button {
      background: none;
      padding: 0px;
      width: 180px;
-	font-size: 0.9em;
-	float: left;
-
-
+	 font-size: 0.9em;
+	 float: left;
 }
 
 h1 {
@@ -133,6 +131,42 @@ a:hover {
 	background: #ffffff;
 	color: #d3b128;
 }
+
+@media 	screen and (max-width: 600px) {
+
+	body {
+		width: 300px;
+		clear: both;
+		margin: auto;
+	}
+
+	a {
+		width: 300px;
+	}
+
+	button {
+		width: 300px;
+	}
+
+	header {
+		font-size: 0.8em;
+		width: 300px;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.qatar a {
+		width: 300px;
+	}
+
+	#cuatro {
+		padding-left: 10%;
+	}
+
+	#cinco {
+		padding-left: 15%;
+	}
 
 
 
