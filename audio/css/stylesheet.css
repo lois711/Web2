@@ -1,0 +1,64 @@
+body {
+	width: 800px;
+	margin: auto;
+}
+
+header {
+    width: 300px;
+    float: left;
+    background: #000000;
+}
+
+#everything {
+    width: 350px;
+}
+
+header img {
+	width: 200px;
+
+}
+
+section {
+	widht:500px;
+	float: left;
+}
+
+section img {
+	width: 338px;
+	float: left;
+	
+}
+
+div {
+	padding-left: 150px;
+}
+
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding-bottom: 15px;
+}
+
+button:hover {
+	color: #ffde00;
+}
+
+button:active {
+	color:pink;
+}
+
+button:focus {
+	color:#ed2e32;
+}
+
+footer {
+	clear: both;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 30px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 0.6em;
+}
