@@ -5,6 +5,27 @@ body {
 	background: #000000;
 }
 
+header {
+	width: 800px;
+	float: left;
+	color: #a0b800;
+	font-size: 3em;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}	
+
+header h4 {
+	font-size: 0.5em;
+	color: #01786b;
+}
+
+footer small {
+	text-align: center;
+	padding: 10px;
+	font-size: 0.5em;
+	color: ##01786b;
+}
+
 figure {
 	width: 400px;
 	float: left;
@@ -19,7 +40,7 @@ img {
 
 img:hover {
 	opacity: 40;
-	background: red;
+	/*background: red;*/
 }
 
 .one img {
@@ -68,6 +89,8 @@ figcaption:hover  {
   opacity: 100;
 }
 
+
+
 /*figure:hover figcaption {
  background: rgba(255,255,255,1);
 }
@@ -86,6 +109,5 @@ figure:hover img {
 		margin: auto;
 		padding-left: 10%;
 	}
-
 
 
