@@ -1,0 +1,226 @@
+
+header {
+	position: absolute;
+	z-index: 10;
+	/*float: left;*/
+}
+
+
+
+.fecha {
+    background: linear-gradient(#000000, #ef9594);
+    background-repeat: no-repeat;
+}
+
+.text {
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	
+}
+
+.text a {
+	padding: 10px;
+}
+
+h1 {
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 7em;
+	text-align: center;
+	color:#ef9594;
+}
+
+h2 {
+	color:#ef9594;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 5em;
+	text-align: center;
+}
+
+h3 {
+	color:#000000;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+.programa {
+	padding: 150px 30px 40px 30px;
+	background: linear-gradient(#ffffff, #ffc0c0);
+
+}
+
+.programa h1 {
+	font-size: 3em;
+	color:#000000;
+}
+
+.programa h2 {
+	font-size: 2em;
+}
+
+.programa img {
+	width: 15%;
+	padding-top: 1%;
+}
+
+.programa img:hover {
+
+}
+
+.programa h3 {
+	font-size: 0.5em;
+}
+
+.sobre {
+	background: url(images/fondo2.jpg);
+	background-repeat: no-repeat;
+	padding-top: 80px;
+
+}
+
+.sobre img {
+	width: 20%;
+	padding: 20px;
+
+
+}
+.sobre h1 {
+	font-size: 2em;
+}
+
+.sobre p {
+	width: 600px;
+	font-family: 'Coda Caption', sans-serif;
+}
+
+/*LOGO*/
+
+.logo {
+	width: 763px;
+	float: left;
+}
+
+.logo img {
+	width:100px;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+/*HEADER MENU*/
+.menu {
+    width: 500px;
+    float: left;
+}
+
+header li {
+	display: inline-block;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin:0% 3% 0% 3%;
+	padding-left:1%;
+	padding-right: 1%;
+}
+
+/*LINKS*/
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color:#ffffff;
+}
+
+a:hover {
+	color:#ef9594;
+	text-decoration: none;
+}
+
+
+/*CAROUSEL*/
+
+
+.carousel {
+	width: 100%;
+	
+}
+
+/*FOOTER*/
+
+footer {
+	/*background: #000000;*/
+	padding: 40px;
+	clear: both;
+	text-align: center;
+
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color:#ef9594;
+}
+
+footer a:hover {
+	color:pink;
+	text-decoration: none;
+}
+
+
+footer small {
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer i {
+	padding-right: 5px;
+	padding-top: 5px;
+}
+	
+
+@media 	screen and (max-width: 600px) {
+
+.menu {
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+header li {
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left:1%;
+	padding-right: 1%;
+	margin-top: 5px;
+
+}
+
+.carousel {
+	width: 100%;
+	float: left;
+	margin-top: 280px;
+}
+
+.sobre {
+	padding-top: 280px;
+}
+
+.sobre img {
+	width: 200px;
+}
+
+.sobre p {
+	text-align: center;
+	width: 300px;
+}
+
+.programa {
+	padding-top: 280px;
+}
+
+.programa img {
+	width: 200px;
+}
