@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/reset.css" type="text/css" rel="stylesheet"/>
+    <script src="https://use.fontawesome.com/ad135bf459.js"></script>
+    <link href="images/icon.jpg"  type="image/png" rel="icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Gidugu|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+  <body>
+<center>
+   <h2 class="w3-center">Jackie's Iconic Style</h2>
+     <h4>Jackie Kennedy's best outfis.</h4>
+     <ul>
+       <a href="https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis" target="_blank"><li>About Jackie</li></a>
+       <a href="http://www.harpersbazaar.com/fashion/trends/g1370/jackie-kennedy-onassis-style-0111/?slide=8" target="_black"><li>Designers</li></a>
+       <a href="https://www.youtube.com/watch?v=5czBqimDpa4"target="_blank"><li>Camelot Song</li></a>
+     </ul>
+   <div class="slide">
+      <img class="mySlides" src="images/3.jpg" style="width:30%">
+      <img class="mySlides" src="images/2.jpg" style="width:30%">
+      <img class="mySlides" src="images/1.jpg" style="width:30%">
+      <img class="mySlides" src="images/4.jpg" style="width:30%">
+      <img class="mySlides" src="images/5.jpg" style="width:30%">
+      <img class="mySlides" src="images/6.jpg" style="width:30%">
+  </div>
+
+      <button class="left" onclick="plusDivs(-1)">Previous Picture</button>
+      <button class="right" onclick="plusDivs(1)">Next Picture</button>
+ </center>
+<div class="text">
+ <h3>Jacqueline Kennedy Onassis</h3>
+ <center>
+ <p>Was the wife of the 35th President of the United States,  John F. Kennedy, and First Lady of the United States from 1961 until his assassination in 1963.</p>
+ <p>Her Style was inspiring for a lot of women at the time.</p>
+ </center>
+</div>
+ <footer>
+     <small>&copy; Lois Santos</small>
+     <center>
+      <a href="https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis"> 
+          <i class="fa fa-wikipedia-w fa-2x"></i>
+      </a>
+     </center>
+     <audio controls autoplay>
+  <source src="audio/jackie.mp3" type="audio/mpeg">
+</audio>
+ </footer>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>
+
