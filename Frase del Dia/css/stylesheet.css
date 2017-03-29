@@ -1,0 +1,41 @@
+body {
+	font-family: 'Space Mono', monospace;
+	margin-top: 0 auto;
+	text-align: center;
+	font-size: 6em;
+	padding: 70px;
+	background: #3a8cac;
+	background-size: cover;
+	color:#ffde00;
+}
+
+.rules {
+	padding-top: 70px;
+	padding-bottom: 40px;
+	width: 300px;
+	margin:auto;
+}
+
+p {
+	font-size: 0.1em;
+	line-height: 20px;
+	color:#ffffff;
+}
+
+h1 {
+	font-size: 0.3em;
+	line-height: 30px;
+}
+
+header img {
+	margin:auto;
+	width: 200px;
+	padding-bottom:25px;
+	
+}
+
+.rules img {
+	width: 100px;
+	padding: 20px;
+}
+
