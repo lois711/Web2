@@ -1,0 +1,122 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	background: linear-gradient(#000000, #e00000);
+}
+
+header {
+	float: left;	
+	margin-left: 15%;
+}
+
+header img {
+	width: 200px;
+	margin-left:340px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	margin-right:340px;
+}
+
+.uno {
+	float: left;
+	width: 950px;
+	float: left;
+	margin-left: 13%;
+	background-image: url(../images/berman.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.uno img {
+	width: 350px;
+	float: left;
+	margin-left: 5%;
+}
+
+#exp {
+	width: 600px;
+	float: left;
+	font-size: 2em;
+	color: #ffffff;
+	margin-top: 3%;
+	font-weight: 700;
+	margin-left: 7%;
+	margin-bottom: 5%;
+}
+
+.dos {
+	float: left;
+	width: 475px;
+	margin-left: 13%;
+	
+}
+
+.dos img {
+	width:475px;
+}
+
+.tres {
+	float: left;
+	width: 475px;
+	
+}
+
+.tres img {
+	width: 475px;
+
+}
+
+.cuatro {
+	float: left;
+	width: 950px;
+	margin-left: 13%
+}
+
+#dow {
+	width: 200px;
+	margin:5%;
+}
+
+#download {
+	float: left;
+	width: 900px;
+	margin-left: 2%;
+	margin-top: 15%;
+
+}
+
+footer {
+	clear:both;
+	background-image: url(../images/danish.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+
+}
+
+
+
+div {
+	margin-left: 20%;
+	margin-bottom: 10%;
+}
+
+i {
+	padding:2%;
+	color: #ffffff;
+}
+
+i:hover {
+	color:#e00000;
+}
+
+#icons {
+	margin-left:45%;
+	padding-top: 10%;
+}
+
+footer {
+	clear:both;
+	background-image: url(../images/danish.png);
+	background-repeat: no-repeat;
+}	
