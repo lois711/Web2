@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,900');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	background-color: #0C8899;
+	margin: auto;
+	text-align: center;
+}
+
+.sub {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.verdadoreto {
+	font-weight: 900;
+	font-size: 6em;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.verdadoreto1 {
+	font-weight: 900;
+	font-size: 9em;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+h1 {
+	font-weight: 400;
+	position: absolute;
+	left: 22%;
+	margin-left: 15%;
+	padding: 1%;
+	display: block;
+	color: #F48E8E;;
+	text-shadow: 2px 2px 2px #393838;
+
+}
+
+
+h2 {
+	color: #F48E8E;
+	left: 15%;
+	top: 40%;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #818181;
+}
+
+p {
+	color: #0D474F;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
+.siguiente {
+	font-weight: 400;
+	position: absolute;
+	top: 73%;
+	left: 32%;
+	margin-left: 15%;
+	padding: 1%;
+	background-color: #0D474F;
+	display: block;
+	box-shadow: 2px 2px 2px #393838;
+}
+
+.denuevo {
+	font-weight: 400;
+	position: absolute;
+	top: 83%;
+	left: 33%;
+	margin-left: 15%;
+	padding: 1%;
+	background-color: #0D474F;
+	display: block;
+	box-shadow: 2px 2px 2px #393838;
+}
+
+.verdad {
+	font-weight: 400;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 11%;
+	padding: 1%;
+	background-color: #0D474F;
+	display: block;
+	box-shadow: 2px 2px 2px #393838;
+}
+
+.reto {
+	font-weight: 400;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 19%;
+	padding: 1%;
+	background-color: #0D474F;
+	display: block;
+	box-shadow: 2px 2px 2px #393838;
+}
+
+.volver {
+	margin-top: 130px;
+	font-weight: 400;
+	position: absolute;
+	top: 63%;
+	left: 32%;
+	margin-left: 11%;
+	padding: 1%;
+	background-color: #F48E8E;
+	display: block;
+	box-shadow: 2px 2px 2px #393838;
+}
+
+
+
+a {
+	margin-top: 30px;
+	margin-left: 10.5%;
+	color: white;
+	text-decoration: none;
+	font-weight: 900;
+	display: block;
+	position: absolute;
+	top: 62%;
+}
+
+button:hover {
+	opacity: 0.6;
+
+}
+
+a:hover {
+	opacity: 0.6;
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1230px) {
+	.eightball {
+		font-size: 6vw;
+	}
+
+@media screen and (max-width: 900px) {
+	.eightball {
+		font-size: 4em;
+	}
+
+@media screen and (max-width: 570px) {
+	.landingh3 {
+		top: 52%;
+	}	
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.main {
+		margin: auto;
+	}
+
+	a {
+		top: 70%;
+		padding: 2%;
+	}
+
+
+}
+
+footer {
+	color: solid white;
+	
+}
